@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+header {
+    background-color: rgb(44, 44, 44);
+    color: whitesmoke;
+}
+.head-wrapper {
+    display: flex;
+    padding: 5px 0px;
+}
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav h2, nav p {
+    margin: 0px 10px;
+}
+.search-bar {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-bar input, button {
+    margin: 0px 15px;
+}
+input {
+    padding: 3px 0px;
+    border-radius: 3px;
+}
+button {
+    background-color: rgb(44, 44, 44);
+    color: orange;
+    border: 1px solid orange;
+    padding: 3px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out
+}
+button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.form-wrapper {
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-wrapper h1 {
+    text-align: center;
+}
+.section {
+    margin: 36px 0px;
+}
+form input {
+    width: 100%;
+}
+.login-button {
+    color: whitesmoke;
+    background-color:royalblue;
+    border: 0px solid royalblue;
+    margin: 0px;
+    padding: 5px;
+}
+.results-bar {
+    background-color: grey;
+    padding: 10px 0px;
+    width: 98.5%;
+    margin: auto;
+    border-radius: 3px;
+}
+.results-bar a {
+    color: orange;
+}
+.results-bar p {
+    margin-left: 20px;
+}
+.movie-container {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meme-movie {
+    background-image: url('images/meme copy.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 250px;
+    margin: 0 2.5% 20px 2.5%;
+    transition: 0.25s;
+}
+.meme-movie:hover{
+    box-shadow: 0 0 10px black;
+    cursor: grab;
+}
+.info-container {
+    width: 98%;
+    margin: auto;
+    display: flex;
+}
+.meme-poster {
+    width: 30%;
+}
+.meme-poster img {
+    width: 100%;
+    height: auto;
+}
+.meme-text {
+    width: 65%;
+    margin-left: 5%;
+}
+.submit-area {
+    margin-left: 2%;
+}
+.submit-area button {
+    background-color:royalblue;
+    padding: 3px;
+    color: whitesmoke;
+    border: solid royalblue;
+}
